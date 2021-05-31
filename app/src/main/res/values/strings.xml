@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Super Cars</string>
+    <string name="main_page">main page wallpaper</string>
+    <string name="main_page_action_bar_title">Super Cars</string>
+    <string name="identify_car_make_btn">Identify the Car Make</string>
+    <string name="car_hints_btn">Hints</string>
+    <string name="identify_car_image_btn">Identify the Car Image</string>
+    <string name="advanced_level_btn">Advanced Level</string>
+
+    <string name="car_make_action_bar_title">Identify the Car Make</string>
+    <string name="car_make_img_view">Image view of the random generated car</string>
+    <string name="car_make_spinner_title">Please Select the Car Name</string>
+    <string name="car_make_identify_btn">Identify</string>
+    <string name="car_make_next_btn">Next</string>
+
+    <string-array name="car_make_type">
+        <item>\t\t\t\t\t\t\tAlfa Romeo\t\t\t</item>
+        <item>\t\t\t\t\t\t\t\t\t\t Audi</item>
+        <item>\t\t\t\t\t Mercedes Benz</item>
+        <item>\t\t\t\t\t\t\t\t\t\t BMW</item>
+        <item>\t\t\t\t\t\t\t\t\t Jaguar</item>
+        <item>\t\t\t\t\t\t\t\t\tMaserati</item>
+    </string-array>
+
+    <string name="car_make_result_one">CORRECT!</string>
+    <string name="car_make_result_two">WRONG!</string>
+
+    <string name="car_make_alfa_romeo">Correct Answer is Alfa Romeo</string>
+    <string name="car_make_audi">Correct Answer is Audi</string>
+    <string name="car_make_benz">Correct Answer is Mercedes Benz</string>
+    <string name="car_make_bmw">Correct Answer is BMW</string>
+    <string name="car_make_jaguar">Correct Answer is Jaguar</string>
+    <string name="car_make_maserati">Correct Answer is Maserati</string>
+
+    <string name="car_img_view_one">Image view of the random generated car one</string>
+    <string name="car_img_view_two">Image view of the random generated car two</string>
+    <string name="car_img_view_three">Image view of the random generated car three</string>
+    <string name="car_img_identify_title">IDENTIFY</string>
+    <string name="car_img_identify_next_btn">Next</string>
+    <string name="car_img_toast">Please Select the Image</string>
+
+    <string name="car_img_alfa_romeo">Alfa Romeo</string>
+    <string name="car_img_audi">Audi</string>
+    <string name="car_img_benz">Mercedes Benz</string>
+    <string name="car_img_bmw">BMW</string>
+    <string name="car_img_jaguar">Jaguar</string>
+    <string name="car_img_maserati">Maserati</string>
+
+    <string name="advanced_level_title">Fill in the Blanks</string>
+    <string name="advanced_level_submit_btn">Submit</string>
+    <string name="edit_car_name_hint">Please Enter the Car Name</string>
+    <string name="advanced_level_correct_ans">Correct Answer is </string>
+    <string name="advanced_level_points">Points: 0</string>
+    <string name="advanced_level_dynamic_points">Points:</string>
+
+    <string name="car_hints_title">Guess the Car Name</string>
+    <string name="car_hints_edit_text_hint">Enter a Character</string>
+
+    <string name="main_page_switch">Timer</string>
+    <string name="count_down_begin">00</string>
+
+    <string name="time_finish">Time is Over!</string>
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".IdentifyCarMakeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/carMakeTimer"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/customize_edit_text"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/count_down_begin"
+                android:textColor="@color/yellow_550"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/carMakeImgView"
+                android:layout_width="367dp"
+                android:layout_height="283dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/car_make_img_view" />
+
+            <TextView
+                android:id="@+id/spinnerTitle"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/customize_heading"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/car_make_spinner_title"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/carMakeSpinner"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/customize_spinner"
+                android:dropDownWidth="match_parent"
+                android:entries="@array/car_make_type"
+                android:popupBackground="@drawable/customize_heading"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/carMakeResult"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/customize_result_background"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/carMakeCorrectAns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/customize_result_text"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:textColor="@color/yellow_550"
+                android:textSize="25sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/carMakeIdentifyBtn"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:onClick="identify"
+                android:text="@string/car_make_identify_btn"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
